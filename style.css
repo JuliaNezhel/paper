@@ -7,6 +7,7 @@ body {
 .wraper {
     width: auto;
     margin: 0 auto;
+    height: 100%;
 }
 
 /* ---header------------------------ */
@@ -42,6 +43,7 @@ body {
     font-family: 'PlayfairDisplay';
     font-size: 22px;
     color: white;
+    text-decoration: none;
 }
 
 .menu_link:hover{
@@ -55,12 +57,21 @@ body {
 }
 
 /* ------------------------ */
-.main {}
-
+.main {
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/* -----STYLE------------ */
 .main_style {
-    /* background: url(IMAGE.jpg); */
     background: url(img/sweatshirt.jpg) no-repeat;
+    background-size: 1440px 800px;
     height: 800px;
+}
+
+.style_title{
+    padding: 100px 0 0 0;
+    margin: 0;
 }
 
 .footer {}
