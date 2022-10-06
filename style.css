@@ -1,0 +1,66 @@
+/* -------------------------------------- */
+body {
+    margin: 0;
+    background: black;
+}
+
+.wraper {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ---header------------------------ */
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 60px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+._menu {}
+
+.menu_item:not(:last-child) {
+    padding: 0 40px 0 0;
+}
+
+.menu_link {
+    font-family: 'PlayfairDisplay';
+    font-size: 22px;
+    color: white;
+}
+
+.menu_link:hover{
+    opacity: 0.5;
+}
+
+@media (max-width: 664px) {
+    .header_container {
+        margin: 10px 30px;
+    }
+}
+
+/* ------------------------ */
+.main {}
+
+.main_style {
+    /* background: url(IMAGE.jpg); */
+    background: url(img/sweatshirt.jpg) no-repeat;
+    height: 800px;
+}
+
+.footer {}
