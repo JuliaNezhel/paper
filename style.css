@@ -1,7 +1,7 @@
 /* -------------------------------------- */
 body {
     margin: 0;
-    background: black;
+    background: #F5F5F5;
 }
 
 .wraper {
@@ -16,6 +16,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
+    height: 106px;
     z-index: 50;
 }
 
@@ -40,13 +41,14 @@ body {
 }
 
 .menu_link {
-    font-family: 'PlayfairDisplay';
-    font-size: 22px;
-    color: white;
+    font-family: 'Jost';
+    font-size: 20px;
+    color: #292F36;
     text-decoration: none;
+    line-height: 30px;
 }
 
-.menu_link:hover{
+.menu_link:hover {
     opacity: 0.5;
 }
 
@@ -62,16 +64,68 @@ body {
     top: 0;
     width: 100%;
 }
-/* -----STYLE------------ */
-.main_style {
-    background: url(img/sweatshirt.jpg) no-repeat;
-    background-size: 1440px 800px;
-    height: 800px;
+
+._container {
+    height: 20%;
 }
 
-.style_title{
-    padding: 100px 0 0 0;
-    margin: 0;
-}
+/* @media (min-width: 1440px) {
+    .main {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 4000px;
+    }
+}  */
+@media (max-width: 1440px) {
+    .main {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 3000px;
+    }
+}  
 
+/* -----interior------------ */
+.interior{
+    background: url(./img/interior.jpg) no-repeat;
+    background-size: 100%;
+    height: 831px;
+    margin: 106px 0 0 0;
+}
+.interior_main {
+    padding: 188px 0 0 120px;
+    width: 595px;
+}
+.interior_main__title {
+    font-size: 80px;
+    font-family: 'DMSerifDisplay';
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    margin: 0 0 19px 0;
+    color: #292F36;
+}
+.interior_main__description {
+    font-size: 22px;
+    font-family: 'Jost';
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin: 0 0 35px 0;
+    color: #4D5053;
+}
+.interior_main__button {
+    background-color: #292F36;
+    padding:  22px 62px 22px 34px;
+    width: 207px;
+    height: 71px;
+    align-items: center;
+    border-radius: 18px;
+}
+.interior_main__button-link {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Jost';
+    text-decoration: none;
+    align-items: center;
+}
 .footer {}

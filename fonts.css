@@ -1,7 +1,13 @@
 @font-face {
-  font-family: 'PlayfairDisplay';
-  src: url('fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: 'Jost';
+  src: url('fonts/Jost-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'DMSerifDisplay';
+  src: url('fonts/DMSerifDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
